@@ -1,4 +1,4 @@
 Algorithms
 ==========
 
-Some algorithms in code (C#)
+Some algorithms in code (C# and python)
