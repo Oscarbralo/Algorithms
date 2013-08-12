@@ -5,15 +5,15 @@ Some Algorithms in code.
 
 # Info #
 ---
-[Searching][]
+[Searching]
 .
 ├── `Binary Search`
-└── `Linear Search`
+├── `Linear Search`
 
-[Sorting][]
+[Sorting]
 .
 ├── `Insertion Sorting`
 ├── `Selection Sorting`
-└── `Bubble Sorting`
-    *
+├── `Bubble Sorting`
+    
     `{5} directories`
