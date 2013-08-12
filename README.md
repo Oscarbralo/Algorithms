@@ -1,4 +1,13 @@
-Algorithms
-==========
+# Algorithms #
+---
 
-Some algorithms in code (C# and python)
+Some Algorithms in code.
+
+# Info #
+---
+
+    - <BinarySearch>
+    - <BubbleSort>
+    - <InsertionSort>
+    - <LinearSearch>
+    - <SelectionSort>
