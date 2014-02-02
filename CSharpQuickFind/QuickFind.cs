@@ -1,36 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace QuickFind
 {
-    public class QuickFind
+    public class QuickFindAlgorithm
     {
         private int[] id;
 
         //Initialize the quick find data structure
-        public QuickFind(int n)
+        public QuickFindAlgorithm(int n)
         {
             int count = -1;
             id = new int[n].Select(x => x = ++count).ToArray<int>();
         }
 
         //Join two components
-        public void union(int p, int q)
+        public void Union(int p, int q)
         {
             id = (id[p] != id[q]) ? id.Select(x => (x == id[p]) ? x = id[q] : x).ToArray<int>() : id;
         }
 
         //CHeck if two components are connected
-        public bool areConnected(int p, int q)
+        public bool AreConnected(int p, int q)
         {
-            return (id[p] == id[q]) ? true : false;
+            return id[p] == id[q];
         }
 
         //Count the number of connected components
-        public int countComponents()
+        public int CountComponents()
         {
             return id.Distinct().Count();
         }
