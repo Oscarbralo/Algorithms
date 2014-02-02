@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuickFind
 {
-    public class QuickFind
+    public class QuickFindAlgorithm
     {
         private int[] id;
 
