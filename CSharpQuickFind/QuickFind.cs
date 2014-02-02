@@ -18,19 +18,19 @@ namespace QuickFind
         }
 
         //Join two components
-        public void union(int p, int q)
+        public void Union(int p, int q)
         {
             id = (id[p] != id[q]) ? id.Select(x => (x == id[p]) ? x = id[q] : x).ToArray<int>() : id;
         }
 
         //CHeck if two components are connected
-        public bool areConnected(int p, int q)
+        public bool AreConnected(int p, int q)
         {
             return (id[p] == id[q]) ? true : false;
         }
 
         //Count the number of connected components
-        public int countComponents()
+        public int CountComponents()
         {
             return id.Distinct().Count();
         }
